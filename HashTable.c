@@ -103,7 +103,7 @@ HashTable_t* hashTable_new(int maxSize){
 }
 
 /**
- * @brief free the mamory of a hash table.
+ * @brief free the memory of a hash table.
  * 
  * @param tableToFree 
  */
@@ -117,7 +117,7 @@ void hashTable_free(HashTable_t** tableToFree){
 }
 
 /**
- * @brief insert a element in a hash table.Return true if the element was added and false 
+ * @brief insert an element in a hash table.Return true if the element was added and false 
  * otherwise (the key already exists).
  * 
  * @param table 
